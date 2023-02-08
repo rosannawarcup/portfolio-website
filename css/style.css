@@ -1,35 +1,48 @@
+/* GLOBAL STYLES 
+================================== */
+html {
+  font-size:62.5%;
+}
 body {
-    background-color: azure;
-    font-family: 'fira-sans', sans-serif;
-    font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  background-color: #f0ffff;
+  font-family: 'fira-sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 1.6rem;
   color: #4a4a4a;
 }
-h1, h2, h3, h4 {
-    line-height: 1.4;
-  }
-  h1 {
-    font-size: 2.75em;
-    font-weight: 700;
-  }
-  
-  h2 {
-    font-size: 2.25em;
-    font-weight: 700;
-  }
-  
-  h3 {
-    font-size: 1.75em;
-    font-weight: 400;
-  }
-  h4 {
-    font-size: 1.35em;
-    font-weight: 400;
-  }
-  img {
-    width: 100%;
-  }
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
 /*
 colors used:
 primary color (blue): #4694AD;
@@ -37,41 +50,72 @@ secondary color (orange): #ECA00C;
 tertiary colour (white): #FFFFFF;
 */
 a {
-    color: #ECA00C;
-    text-decoration: none; /* No underlining */
-  }
-  a:visited { /* visited link */
-    color: #FFFFFF;
-  }
-  a:hover,
-  a:focus {
-    color: #D3D3D3;
-    text-decoration: underline; /* Underlining when hovering over a link */
-  }
-  a:active { /* selected link */
-    color: #994c30;
-  }
-  .button {
-    display: inline-block; /* # */
-    background-color: #ECA00C;
-    color: #ffffff; /* needed to override the default link color */
-    font-weight: 400;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #ECA00C; /* width of the border, type, color */
-    transition: 0.2s opacity;
-  }
-  .button:hover {
-    opacity: 0.8; /* Reduces the opacity of the button to 80% */
-    text-decoration: none;
-  }
-  .button-contact {
-    background-color: transparent;
-    color: #ECA00C;
-    text-transform: uppercase;
-    border: 2px solid #ECA00C;
-  }
-  .button-contact:hover {
-    background-color: #ECA00C;
-    color: #ffffff;
-  }
+  color: #ECA00C;
+}
+
+a:visited {
+  /* visited link */
+  color: #ECA00C;
+}
+
+a:hover,
+a:focus {
+  color: #D3D3D3;
+  text-decoration: none;
+}
+
+a:active {
+  /* selected link */
+  color: #D3D3D3;
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  /* # */
+  background-color: #ECA00C;
+  color: #fff;
+  /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px 40px;
+  border-radius: 3px;
+  border-bottom: 2px solid #7c5609;
+  /* width of the border, type, color */
+  transition: 0.2s background-color;
+  text-decoration: none;
+}
+
+.button:visited {
+  background-color:#ECA00C;
+  color: #fff;
+}
+
+.button:hover, 
+.button:focus {
+  background-color:#533a07;
+  color: #fff;
+}
+
+.button:active {
+  background-color:#533a07;
+  color: #fff;
+}
+
+.button.button-contact {
+  background-color: transparent;
+  color: #ECA00C;
+  text-transform: uppercase;
+  border: 2px solid #ECA00C;
+}
+
+.button.button-contact:hover {
+  background-color: #ECA00C;
+  color: #ffffff;
+}
+
+/* HEADER
+================================== */
+
+/* CONTAINERS,ROWS AND COLUMNS
+================================== */
+

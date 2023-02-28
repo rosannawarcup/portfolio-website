@@ -213,8 +213,11 @@ nav a.active {
 
 .navtoggle li .icon {
   margin: 0;
-}
-
+  position: absolute;
+  top: -49px;
+  right: 0;
+  }
+  
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }

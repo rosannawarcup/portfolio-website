@@ -280,7 +280,7 @@ section {
 }
 
 .image-box.multi-img-box {
-  overflow: scroll;
+  overflow: auto;
   align-items: flex-start;
 }
 
